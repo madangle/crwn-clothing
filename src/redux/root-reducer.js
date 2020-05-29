@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux';
-import {persistReducer} from 'redux-persist';
+import {persistReducer} from 'redux-persist'; //used to store data in the local storage
 import storage from 'redux-persist/lib/storage'; //localstorage object from the window
 
 import userReducer from './user/user.reducer';
